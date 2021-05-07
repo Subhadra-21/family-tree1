@@ -1,0 +1,52 @@
+<div id="app">
+  <form id="formId">
+    <label for="keytype">Choose Key: </label>
+    <select id="keytype">
+      <option value="">Select</option>
+      <option value="ADD_CHILD">ADD_CHILD</option>
+      <option value="GET_RELATIONSHIP">GET_RELATIONSHIP</option>
+    </select>
+    <br />
+    <br />
+    <div id="addChildId">
+      <label for="childName">Child Name: </label>
+      <input type="text" id="childName" />
+      <br />
+      <br />
+      <label for="parentName">Parent Name: </label>
+      <input type="text" id="parentName" />
+      <br />
+      <br />
+      <label for="genderName">Gender: </label>
+      <input type="text" id="genderName" />
+    </div>
+    <br />
+    <div id="getRelationId">
+      <label for="personName">Person Name: </label>
+      <input type="text" id="personName" />
+      <br />
+      <br />
+      <label for="relName">Relationship: </label>
+      <select id="relName">
+        <option value="">Select</option>
+        <option value="Paternal-Uncle">Paternal-Uncle</option>
+        <option value="Maternal-Uncle">Maternal-Uncle</option>
+        <option value="Paternal-Aunt">Paternal-Aunt</option>
+        <option value="Maternal-Aunt">Maternal-Aunt</option>
+        <option value="Sister-In-Law">Sister-In-Law</option>
+        <option value="Brother-In-Law">Brother-In-Law</option>
+        <option value="Father-In-Law">Father-In-Law</option>
+        <option value="Mother-In-Law">Mother-In-Law</option>
+        <option value="Son">Son</option>
+        <option value="Daughter">Daughter</option>
+        <option value="Siblings">Siblings</option>
+      </select>
+    </div>
+    <br />
+    <input type="submit" />
+  </form>
+  <br />
+  <br />
+  <input type="button" value="Show Tree" id="showTree" />
+  <div id="treeContainer"></div>
+</div>

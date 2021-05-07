@@ -1,0 +1,13 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+
+#addChildId,
+#getRelationId {
+  display: none;
+}
+
+.showDiv {
+  display: block !important;
+}
